@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zip", "Zip\Zip.csproj", "{9F42035F-4790-4E65-95D9-030403301AC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCalculatorTests", "CreditCalculatorTests\CreditCalculatorTests.csproj", "{734B6C92-875F-4981-B2B1-AA566450E211}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F42035F-4790-4E65-95D9-030403301AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F42035F-4790-4E65-95D9-030403301AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F42035F-4790-4E65-95D9-030403301AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F42035F-4790-4E65-95D9-030403301AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{734B6C92-875F-4981-B2B1-AA566450E211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{734B6C92-875F-4981-B2B1-AA566450E211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{734B6C92-875F-4981-B2B1-AA566450E211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{734B6C92-875F-4981-B2B1-AA566450E211}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C259AD99-A9B2-48B4-BA4A-8B905EE1A55D}
+	EndGlobalSection
+EndGlobal

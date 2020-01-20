@@ -1,4 +1,6 @@
-﻿namespace Zip.CreditInputs
+﻿using System;
+
+namespace Zip.CreditInputs
 {
     public class CreditScoreCalculator : ICreditInputCalculator
     {
@@ -33,7 +35,7 @@
             switch (CreditScoreBand)
             {
                 case CreditScoreBands.Ineligible:
-                    return -1;
+                    throw new IneligibleCreditScoreException("Credit score is too low");
                 case CreditScoreBands.Low:
                     return 1;
                 case CreditScoreBands.Medium:
@@ -52,5 +54,16 @@
         Low,            // 451 - 700
         Medium,         // 701 - 850
         High            // 851 - 1000
+    }
+
+    public class IneligibleCreditScoreException : Exception
+    {
+        public IneligibleCreditScoreException()
+        {
+        }
+
+        public IneligibleCreditScoreException(string message) : base(message)
+        {
+        }
     }
 }

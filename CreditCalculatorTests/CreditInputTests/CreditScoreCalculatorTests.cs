@@ -31,7 +31,7 @@ namespace CreditCalculatorTests.CreditInputTests
         public void GetScore_Ineligible()
         {
             var calculator = new CreditScoreCalculator(200);
-            Assert.Equal(-1, calculator.GetScore());
+            Assert.Throws<IneligibleCreditScoreException>(() => calculator.GetScore());
         }
 
         [Fact]
